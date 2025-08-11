@@ -1,25 +1,25 @@
 # UiPath Notepad Automation
 
-This project is a UiPath workflow that automates the Windows Notepad application.  
-It demonstrates how to launch Notepad, type custom text, open the Edit menu, navigate to Font settings, adjust font family, style, and size, and close the application — all automatically.
+This project is a UiPath workflow that automates the Windows Notepad application: opening Notepad, typing text, changing font settings (family, style, size), and closing the app.
 
 ## Features
-
-- Opens Notepad automatically
-- Types custom text into the Notepad editor
-- Opens the Edit menu and navigates to Font options
-- Selects Font family (e.g., Arial), style (e.g., Italic), and size (e.g., 20)
-- Applies the chosen font settings
-- Closes Notepad at the end
+- Opens Notepad
+- Types custom text
+- Navigates Edit > Font menu
+- Selects Font family, style, and size
+- Applies changes and closes Notepad
 
 ## How to Use
+1. Download the repository.
+2. Open `WebAutomation_Notepad.xaml` in UiPath Studio.
+3. Run the workflow.
 
-1. Clone or Download this repository to your computer.
-2. Open the project in **UiPath Studio**.
-3. Open the workflow file: `WebAutomation_Notepad.xaml`.
-4. Run the workflow from UiPath Studio.
+## Requirements
+- UiPath Studio
+- Windows with Notepad
 
-## Project Structure
-
+## Project Files
 - `WebAutomation_Notepad.xaml` — Main automation workflow
-- `project.json` — UiPath project configuration
+- `project.json` — Configuration
+
+---
